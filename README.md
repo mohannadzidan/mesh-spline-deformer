@@ -8,5 +8,5 @@ i've used the bezier curve package from this [rebo](https://github.com/yasirkula
 
 [![Watch the video](https://i.imgur.com/dvqFD3V.png)](https://i.imgur.com/ZiIho32.mp4)
 
-To use this tool all what you have to do is to create a embty game object and attach MeshSplineDeformer to it and add the base mesh that you want to make a deformed instance of it in baseMesh inspector property then add the material of the model in the mesh renderer
+To use this tool all what you have to do is to create an empty game object and attach MeshSplineDeformer component to it and drag the base mesh from the model you want to deform and drop it in the baseMesh inspector property and the script will automatically clone this mesh and the clone will be ready to be deformed.
 
